@@ -1,0 +1,34 @@
+Watchdog is a Python library used for monitoring file system events in real-time. It provides a simple and efficient way to track 
+changes to files and directories, such as creations, modifications, deletions, and more. The primary use of the "watchdog" library
+ is to build applications that need to respond to file system events, such as automatic backup systems, synchronization tools,
+  or continuous integration systems.
+
+  Here are the main features and use cases of the "watchdog" library:
+
+File System Event Monitoring: You can use "watchdog" to track events like file creations, modifications, deletions, and renames 
+within specified directories.
+
+Asynchronous and Synchronous APIs: The library provides both asynchronous and synchronous APIs for monitoring file system
+ events. You can choose the appropriate one based on your specific needs and the environment where your application runs.
+
+Event Handlers: "Watchdog" allows you to define event handlers that get triggered when specific file system events occur. 
+You can customize how your application responds to these events.
+
+Recursion: The library supports recursive monitoring, meaning it can track changes in subdirectories within the specified 
+monitored directories.
+
+Efficient Resource Usage: "Watchdog" is designed to use minimal system resources and avoids polling to detect file system changes.
+
+
+Installation:    pip install watchdog
+
+
+Import:
+import time
+import logging
+from watchdog.observers import Observer
+from watchdog.events import LoggingEventHandler
+
+
+
+https://pythonhosted.org/watchdog/

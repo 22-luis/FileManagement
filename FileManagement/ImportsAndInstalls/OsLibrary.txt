@@ -1,0 +1,37 @@
+- import the "os" library:  "import os"
+
+The os library provides a way to interact with the operating system's functionalities. It allows you to perform 
+various operating system-related tasks, such as navigating directories, working with files, managing processes, and getting 
+information about the system.
+
+Some of the most commonly used functions in the "os" library include:
+
+File and Directory Operations:
+
+os.getcwd(): Get the current working directory.
+os.chdir(path): Change the current working directory.
+os.listdir(path): List the files and directories in a given path.
+os.mkdir(path): Create a new directory.
+os.makedirs(path): Create nested directories recursively.
+os.remove(path): Remove a file.
+os.rmdir(path): Remove a directory (only works if it's empty).
+os.rename(old, new): Rename a file or directory.
+Environment Variables:
+
+os.environ: A dictionary containing the system's environment variables.
+os.getenv(var): Get the value of a specific environment variable.
+Process Management:
+
+os.system(command): Execute a shell command.
+os.popen(command): Open a pipe to or from a command.
+os.kill(pid, signal): Send a signal to a process.
+Path Manipulation:
+
+os.path.join(path, *paths): Join one or more path components intelligently.
+os.path.exists(path): Check if a path exists.
+os.path.isfile(path): Check if a path points to a regular file.
+os.path.isdir(path): Check if a path points to a directory.
+os.path.basename(path): Get the base name of a path (filename).
+os.path.dirname(path): Get the directory name of a path.
+
+https://docs.python.org/3/library/os.html
